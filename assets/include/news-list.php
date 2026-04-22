@@ -1,7 +1,7 @@
 <?php
 // ニュース一覧（最新順）
 $newsList = array(
-    array('date' => '2026.4.1', 'text' => '０マンガでわかる！とんとんの日常', 'link' => '/tonton-manga/'),
+    array('date' => '2026.4.1', 'text' => 'マンガでわかる！とんとんの日常', 'link' => '/tonton-manga/'),
     array('date' => '2026.4.1', 'text' => '行事予定', 'link' => '/schedule/'),
     array('date' => '2026.3.21', 'text' => 'マンガでわかる！とんとんの日常', 'link' => '/tonton-manga/'),
     array('date' => '2026.3.09', 'text' => 'とんとんのひとこま', 'link' => '/tonton-hitokoma/'),
