@@ -1,0 +1,121 @@
+/******************
+PC
+******************/
+
+@media (min-width: 583px) {
+
+#wrapper{
+	padding: 40px 0 0 0;
+}
+
+#bg_bottom{
+	background: url(../images/top/bgBottom.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 100px;
+}
+
+.wrapperInn{
+	padding: 120px 30px 0 0px;
+}
+
+#mv_sec{
+	background: url(../images/common/bgTopCommon.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 5530px;
+}
+
+#main_view dt h1{
+	padding-bottom: 20px;
+	padding-top: 50px;
+	letter-spacing: 4.5px;
+	color: #f68108;
+	font-weight: bold;
+	text-align: center;
+	font-size: 230%;
+}
+
+#main_view dt .mvRead{
+	text-align: center;
+}
+
+
+
+}
+
+
+
+
+
+
+
+/*************************
+SP レイアウト
+
+*************************/
+
+
+@media (max-width: 563px) {
+
+
+#wrapper{
+	padding: 0% 0 0 0;
+}
+
+#bg_bottom{
+	background: url(../images/top/bgBottom.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-bottom: 5%;
+	background-size: 270%;
+}
+
+.wrapperInn{
+	padding: 0;
+}
+
+#mv_sec{
+	background: url(../images/common/bgTopCommon.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 270%;
+	padding-bottom: 5%;
+}
+
+#main_view dt h1{
+	padding-bottom: 0%;
+	padding-top: 10%;
+	letter-spacing: 4.5px;
+	color: #f68108;
+	font-weight: bold;
+	text-align: center;
+	font-size: 230%;
+}
+
+#main_view dt .mvRead{
+	text-align: center;
+}
+
+.secOtherLink{
+	padding: 5% 5% 20%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

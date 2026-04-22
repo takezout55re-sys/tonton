@@ -1,0 +1,321 @@
+/******************
+PC
+******************/
+
+@media (min-width: 583px) {
+
+#wrapper{
+	padding: 40px 0 0 0;
+}
+
+
+
+.wrapperInn{
+	padding: 120px 30px 0 0px;
+}
+
+#mv_sec{
+	background: url(../images/common/bgTopCommon.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 5530px;
+}
+
+#main_view{
+
+}
+
+#main_view dt h1{
+	padding-bottom: 20px;
+	padding-top: 50px;
+	letter-spacing: 4.5px;
+	color: #f68108;
+	font-weight: bold;
+	text-align: center;
+	font-size: 230%;
+}
+
+#main_view dt .mvRead{
+	text-align: center;
+}
+
+
+.scheduleMain{
+	padding: 70px 0 0 0;
+}
+
+#columnSection{
+	display: flex;
+}
+
+#columnSection1{
+	width: 900px;
+	margin: 0 20px 0 0;
+}
+
+#changeBtn{
+	display: flex;
+}
+
+#changeBtn li{
+	width: 390px;
+	margin: 0 30px 0 0;
+}
+
+#columnSection1 h2,#columnSection2 h2{
+	font-size: 120%;
+	text-align: center;
+}
+
+.scdActive{
+	color: #f68108;
+}
+
+#scheduleSec{
+	width: 800px;
+	padding: 30px 0 0 0 ;
+}
+
+.pdfLinkBtn{
+	width: 204px;
+	margin: 40px auto 80px;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+.tab-btn h2{
+	cursor: pointer;
+	background: url(../images/schedule/lineScheduleOff.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 22px;
+}
+
+.tab-btn.active h2{
+	cursor: pointer;
+	background: url(../images/schedule/lineScheduleAc.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 22px;
+}
+
+.tab-btn h2:hover{
+	opacity: 0.7;
+}
+
+
+#columnSection3{
+	width: 300px;
+}
+
+#archiveTTL{
+	font-size: 120%;
+	font-weight: bold;
+	border-bottom: solid 3px #f68108;
+	margin: 5px 0 10px 0;
+}
+
+#columnSection3 ul{
+	margin: 0 0 40px 0;
+}
+
+#columnSection3 ul li.yearTTL{
+	font-size: 120%;
+	font-weight: bold;
+	margin: 0px 0 5px 0;
+	border-bottom:none;
+}
+
+#columnSection3 ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+#columnSection3 ul li{
+	border-bottom: solid 2px #dcdcdc;
+	padding: 0 0 3px;
+	margin: 0 0 7px 0;
+}
+
+
+
+}
+
+
+
+
+
+
+
+/*************************
+SP レイアウト
+
+*************************/
+
+
+@media (max-width: 563px) {
+
+
+.service_areaWrapperBgBottom{
+	background: url(../images/top/bgBottom.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 220%;
+}
+
+#main_view dt{
+	padding: 0 5% 5%;
+	background: url(../images/top/bgMiddle.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 220%;
+
+}
+
+#main_view dt h1{
+	padding-bottom: 5%;
+	padding-top: 20%;
+	letter-spacing: 4.5px;
+	color: #f68108;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+.tab-btn h2{
+	cursor: pointer;
+	background: url(../images/schedule/lineScheduleOff.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 5%;
+	background-size: 100%;
+}
+
+.tab-btn.active h2{
+	cursor: pointer;
+	background: url(../images/schedule/lineScheduleAc.png);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+	padding-bottom: 5%;
+	background-size: 100%;
+}
+
+.tab-content {
+  display: none;
+}
+
+.tab-content.active {
+  display: block;
+}
+
+
+.scheduleMain{
+	padding: 10% 0 0 0;
+}
+
+
+
+#columnSection1{
+	width: 90%;
+	margin: 0 5% 0 5%;
+}
+
+#changeBtn{
+	display: flex;
+}
+
+#changeBtn li{
+	width: 50%;
+	margin: 0 0% 5% 0;
+}
+
+.spFchangeBtn{
+	padding: 0 5% 0 0;
+}
+
+#columnSection1 h2,#columnSection2 h2{
+	font-size: 90%;
+	text-align: center;
+}
+
+.scdActive{
+	color: #f68108;
+}
+
+#scheduleSec{
+	width: 100%;
+	padding: 0;
+}
+
+.pdfLinkBtn{
+	width: 100%;
+	margin: 5% auto 15%;
+}
+
+.pdfLinkBtn img{
+	width: 100%;
+}
+
+
+
+#columnSection3{
+	width: 90%;
+	margin: 0 5%;
+}
+
+#archiveTTL{
+	font-size: 120%;
+	font-weight: bold;
+	border-bottom: solid 3px #f68108;
+	margin: 5px 0 10px 0;
+}
+
+#columnSection3 ul{
+	margin: 0 0 40px 0;
+}
+
+#columnSection3 ul li.yearTTL{
+	font-size: 120%;
+	font-weight: bold;
+	margin: 0px 0 5px 0;
+	border-bottom:none;
+}
+
+#columnSection3 ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+#columnSection3 ul li{
+	border-bottom: solid 2px #dcdcdc;
+	padding: 0 0 3px;
+	margin: 0 0 7px 0;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

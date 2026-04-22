@@ -1,0 +1,514 @@
+
+body{
+	font-family:"ヒラギノ丸ゴ Pro W4","ヒラギノ丸ゴ Pro","Hiragino Maru Gothic Pro","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","HG丸ｺﾞｼｯｸM-PRO","HGMaruGothicMPRO";
+}
+
+a:hover{
+	opacity: 0.7;
+}
+
+/******************
+PC
+******************/
+
+@media (min-width: 583px) {
+
+.center_style{
+	width: 1100px;
+	margin: 0 auto;
+}
+
+/******************
+Header
+******************/
+
+.spView{
+	display: none;
+}
+
+#HeadLineOver{
+	background-color: #feca16;
+	position: fixed;
+	height:40px;
+	top: 0px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#HeadNaviOver{
+	background-color: rgb(255 255 255 / 0.5);
+	height: 140px;
+	position: fixed;
+	top: 0px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+#HeadNaviCenter{
+	position: absolute;
+	top: 40px;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+}
+
+#headerLine{
+	display: flex;
+	justify-content: flex-end;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+#headerLine li {
+	font-weight: bold;
+	padding: 10px 15px;
+}
+
+#headerLine li a{
+	text-decoration: none;
+	color: #000;
+}
+
+#HeadLineCenter{
+	margin: auto;
+}
+
+#headerNavi{
+	display: flex;
+	 justify-content:flex-start; 
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+#headerNavi li {
+	font-weight: bold;
+	font-size: 90%;
+}
+
+#headerNavi li.textLink {
+	font-weight: bold;
+	padding: 35px 21px;
+	font-size: 90%;
+}
+
+
+#headerNavi li a{
+	text-decoration: none;
+	color: #000;
+}
+
+
+#wrapper{
+	padding-top: 34px;
+}
+
+
+
+footer{
+	background-color: #f2eedf;
+	padding-bottom: 50px;
+}
+
+
+footer ul{
+	padding: 50px 50px;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+#fcolmn1{
+	width: 350px;
+}
+
+#fcolmn2{
+	width: 400px;
+}
+
+#secfooter{
+	display: flex;
+	width: 1100px;
+	margin: 0 auto;
+}
+
+
+
+.boldLink{
+	font-weight: bold;
+}
+
+
+
+.boldLinkMargin{
+	margin-top: 20px;
+}
+
+#fcolmn2 li{
+	margin-bottom: 5px;
+}
+
+#fcolmn3 li{
+	margin-bottom: 10px;
+}
+
+
+#copyright{
+	text-align: center;
+}
+
+.spView{
+	display: none;
+}
+
+.pcView{
+	display: block;
+}
+
+
+
+
+
+/***CVerea******/
+
+
+.cvArea{
+	background-color: #f68108;
+	border-radius: 20px;
+	padding: 40px 73px;
+	color: #FFF;
+}
+
+.cvArea h3{
+	text-align: center;
+	font-size: 190%;
+	padding-bottom: 30px;
+}
+
+.cvContactArea{
+	display: flex;
+	text-align: center;
+}
+
+.cvContactArea dt{
+	padding: 0 40px 0 0;
+	width: 500px;
+	border-right: solid 1px #FFF;
+}
+
+.cvContactArea dt p, .cvContactArea dd p{
+	text-align: left;
+}
+.cvContactArea dt p:last-child{
+	text-align: center;
+}
+
+.cvContactArea dd{
+	width: 500px;
+	padding: 0 0px 0 40px;
+}
+
+.cvContactArea dd h4{
+	padding: 0 0px 10px 0px;
+}
+
+.cvContactArea h4{
+	font-weight: bold;
+	font-size: 135%;
+	padding-bottom: 10px;
+}
+
+.cvTel{
+	font-weight: bold;
+	font-size: 285%;
+	padding-top: 10px;
+}
+
+.cvTel a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.cvPnargin{
+	padding: 20px 0 0 0;
+}
+
+
+.cvArea{
+	background-color: #f68108;
+	border-radius: 20px;
+	padding: 40px 123px;
+	color: #FFF;
+}
+
+.cvArea h3{
+	text-align: center;
+	font-size: 190%;
+	padding-bottom: 30px;
+}
+
+
+
+
+
+
+#bg_bottom{
+	background: url(../images/top/bgBottom.png);
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	padding-bottom: 100px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+/*************************
+SP レイアウト
+
+*************************/
+
+
+@media (max-width: 563px) {
+
+/* 初期状態は非表示 */
+.spGnavi {
+  display: none;
+  opacity: 0;
+  transform: translateY(-10px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  background-color: #ffd889;
+  padding:3% 5% 3% 7%;
+}
+
+.spGnavi a{
+  text-decoration: none;
+  color: #000;
+  background: url(../images/common/allowSP.png);
+  background-repeat: no-repeat;
+  padding: 0 10% 3% 0;
+  background-position: right top;
+  font-weight: bold;
+}
+
+/* activeクラスが付与されたときに表示 */
+.spGnavi.active {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.HeadLineOver{
+  background-color: #ffd889;
+}
+
+
+.spView{
+	display: block;
+}
+
+.pcView{
+	display: none;
+}
+
+#commmonLogo{
+	width: 40%;
+	padding: 3%;
+}
+
+#commmon3Reader{
+	position: absolute;
+	right: 2%;
+	top: 2%;
+}
+
+#headerNavi{
+	background-color: #feca16;
+}
+
+.spabsCV1{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 50%;
+}
+
+.spabsCV2{
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	width: 50%;
+}
+
+.spabsCV1 img,.spabsCV2 img{
+	width: 100%;
+}
+
+
+
+footer{
+	background-color: #f2eedf;
+	padding-bottom: 50px;
+}
+
+
+footer ul{
+	padding: 5%;
+}
+
+footer ul li a{
+	text-decoration: none;
+	color: #000;
+}
+
+.boldLink{
+	font-weight: bold;
+}
+
+
+
+.boldLinkMargin{
+	margin-top: 10%;
+}
+
+#fcolmn1{
+	width: 100%;
+}
+
+#fcolmn2{
+	width: 50%;	
+	float: left;
+}
+
+#fcolmn2 li{
+	margin-bottom: 3%;
+}
+
+#fcolmn3{
+	width: 50%;	
+	float: left;
+}
+
+#fcolmn3 li{
+	margin-bottom: 5%;
+}
+
+
+
+#copyright{
+	text-align: center;
+	clear: left;
+	padding-bottom: 20%;
+}
+
+
+
+
+
+
+
+/***CVerea******/
+
+
+.cvArea{
+	background-color: #f68108;
+	border-radius: 20px;
+	padding: 5%;
+	margin: 5% 5% 15%;
+	color: #FFF;
+}
+
+.cvArea h3{
+	font-size: 130%;
+	text-align: center;
+	padding: 5% 0 7%;
+}
+
+.cvContactArea{
+	padding: 0% 0 0;
+}
+
+
+.cvContactArea dt{
+	border-bottom: solid 1px #FFF;
+	padding: 0 0 7%;
+	margin: 0 0 7%;
+	text-align: center;
+}
+
+.cvContactArea dd{
+	text-align: center;
+	padding-bottom: 5%;
+}
+
+.cvContactArea dt p, .cvContactArea dd p{
+	text-align: left;
+}
+.cvContactArea dt p:last-child{
+	text-align: center;
+}
+
+.cvTel a{
+	text-decoration: none;
+	color: #FFF;
+}
+
+.cvContactArea h4{
+	font-weight: bold;
+	font-size: 135%;
+	padding-bottom: 10px;
+}
+
+.cvTel{
+	font-weight: bold;
+	font-size: 220%;
+	padding-left: 5%;
+	padding-top: 3%;
+}
+
+.cvPnargin{
+	padding: 20px 0 0 0;
+}
+
+
+.cvArea{
+	background-color: #f68108;
+	border-radius: 20px;
+	padding: 5%;
+	color: #FFF;
+}
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

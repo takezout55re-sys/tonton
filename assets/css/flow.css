@@ -1,0 +1,176 @@
+/******************
+PC
+******************/
+
+@media (min-width: 583px) {
+
+#wrapper{
+	padding: 40px 0 0 0;
+}
+
+
+
+.wrapperInn{
+	padding: 120px 30px 0 0px;
+}
+
+#mv_sec{
+	background: url(../images/flow/bgFlow.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 5530px;
+	height: 786px;
+}
+
+#main_view{
+	display: flex;
+	min-height: 740px;
+}
+
+#main_view dt{
+	width: 380px;
+}
+
+#main_view dt h1{
+	padding-bottom: 20px;
+	padding-top: 200px;
+	letter-spacing: 4.5px;
+	color: #f68108;
+	font-weight: bold;
+}
+
+#stepView h2{
+	color: #f68108;
+	text-align: center;
+	font-size: 200%;
+	padding-bottom: 40px;
+}
+
+.attText{
+	background-color: #efefef;
+	padding: 30px;
+	margin: 40px 0 50px;
+	line-height: 1.8;
+}
+
+#attPtn2{
+	background-color: #fbfbde;
+	text-align: center;
+	padding: 25px 10px;
+	margin-bottom: 100px;
+}
+
+#attPtn2 a{
+	color: #f68108;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#pfSec{
+	display: flex;
+	padding: 0 0 70px;
+}
+
+#pfSec li:first-child{
+	padding-right: 20px;
+}
+
+}
+
+
+
+
+
+
+
+/*************************
+SP レイアウト
+
+*************************/
+
+
+@media (max-width: 563px) {
+	.service_areaWrapperBgBottom{
+	background: url(../images/top/bgBottom.png);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-size: 220%;
+}
+
+#main_view dt{
+	padding: 0 5% 5%;
+	background: url(../images/top/bgMiddle.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 220%;
+
+}
+
+#main_view dt h1{
+	padding-bottom: 5%;
+	padding-top: 20%;
+	letter-spacing: 4.5px;
+	color: #f68108;
+	font-weight: bold;
+	text-align: center;
+}
+
+
+
+#stepView h2{
+	color: #f68108;
+	text-align: center;
+	font-size: 180%;
+	padding: 10% 10% 5%;
+}
+
+.attText{
+	background-color: #efefef;
+	padding: 10%;
+	margin:5%;
+	line-height: 1.8;
+}
+
+#spStepimg{
+	margin: 0% 5% 15% 3%;
+}
+
+#attPtn2{
+	background-color: #fbfbde;
+	text-align: center;
+	padding: 5%;
+	margin: 3% 3% 15%;
+}
+
+#attPtn2 a{
+	color: #f68108;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#pfSec{
+	padding: 0 5% 15%;
+}
+
+#pfSec li{
+	padding-bottom: 5%;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
