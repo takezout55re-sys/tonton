@@ -4,7 +4,7 @@
 <ul id="headerNavi">
 <li><a href="/"><img src="/assets/images/common/logoHead.png" alt="とんとん" id="commmonLogo"></a></li>
 <li class="spView"><a href="#"><img src="/assets/images/common/spNavireader.png" alt="" id="commmon3Reader"></a></li>
-<li class="textLink spGnavi"><a href="/day-service/">放課後等デイサービス</a></li>
+<li class="textLink spGnavi"><a href="/day-service/">s放課後等デイサービス</a></li>
 <li class="textLink spGnavi"><a href="/growth/">児童発達支援</a></li>
 <li class="textLink spGnavi"><a href="/schedule/">行事予定</a></li>
 <li class="textLink spGnavi"><a href="/about/">とんとんについて</a></li>
