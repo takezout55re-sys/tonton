@@ -1,6 +1,7 @@
 <ul>
 <li id="archiveTTL">アーカイブ</li>
 <li class="yearTTL">2026年</li>
+<li><a href="202608.html">8月</a></li>
 <li><a href="202607.html">7月</a></li>
 <li><a href="202606.html">6月</a></li>
 <li><a href="202605.html">5月</a></li>
