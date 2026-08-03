@@ -2,6 +2,7 @@
 // ニュース一覧（最新順）
 
 $newsList = array(
+    array('date' => '2026.8.3', 'text' => '9月の行事予定', 'link' => '/schedule/'),
     array('date' => '2026.7.8', 'text' => 'マンガでわかる！とんとんの日常「夏祭り」', 'link' => '/tonton-manga/'),
     array('date' => '2026.6.30', 'text' => '行事予定', 'link' => '/schedule/'),
     array('date' => '2026.6.26', 'text' => '公開情報の「令和8年度地域連携推進会議」', 'link' => '/other-link/'),
